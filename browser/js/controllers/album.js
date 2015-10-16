@@ -13,6 +13,4 @@ app.controller('AlbumCtrl', function ($scope, $rootScope, PlayerFactory, AlbumFa
 		$scope.album  = album;
 	});
 
-
-
 });
