@@ -5,7 +5,7 @@
   "main": "server/start.js",
   "scripts": {
     "start": "nodemon --watch server -e js,html server/start.js",
-    "test": "node_modules/.bin/testem"
+    "test": "testem"
   },
   "dependencies": {
     "angular": "^1.4.7",
@@ -29,5 +29,18 @@
     "chai": "^3.3.0",
     "chai-spies": "^0.7.1",
     "testem": "^0.9.7"
-  }
+  },
+  "bin": {
+    "juke": "helper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasJV/juke-3-states.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicholasJV/juke-3-states/issues"
+  },
+  "homepage": "https://github.com/NicholasJV/juke-3-states#readme"
 }
